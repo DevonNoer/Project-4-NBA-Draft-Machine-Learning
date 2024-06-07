@@ -10,5 +10,5 @@ The third model was also a neural network and it's features were(conf, team, GP,
 ## Model 4
 
 ## Model 5
-The fifth model was a neural network with the features(conf, GP, mp, pts, Ortg, usg, TS_per, FTM, FTA, twoPA, twoPM, TPM, TPA, drtg, bpm, oreb, dreb, ast, stl, blk, drafted). This model had two hidden layers, one with the activation function tanh, and the other with relu. The output layer had the activation function of sigmoid. The hidden layers had 30 and 20 neurons respectively. This was the classification report for this model.
-Undrafted{precision : 0.99, recall : 0.96, f1-score : 0.97}, Drafted{precision: 0.26, recall : 0.65, f1-score : 0.37} and accuracy of 0.95. In conclusion, though the accuracy is high, we still will would like better precision for Drafted.
+The fifth model was a neural network with the features(conf, GP, mp, pts, Ortg, usg, TS_per, FTM, FTA, twoPA, twoPM, TPM, TPA, drtg, bpm, oreb, dreb, ast, stl, blk, drafted). This model had two hidden layers, one with the activation function tanh and the other with relu. The output layer had the activation function of sigmoid. The hidden layers had 30 and 20 neurons, respectively. This was the classification report for this model.
+Undrafted{precision: 0.99, recall: 0.96, f1-score: 0.97}, Drafted{precision: 0.26, recall: 0.65, f1-score: 0.37} and accuracy of 0.95. In conclusion, although the accuracy is high, we still want better precision for Drafted. We also used class weights to recognize drafted players better in the data, which helped improve the numbers from previous attempts.
