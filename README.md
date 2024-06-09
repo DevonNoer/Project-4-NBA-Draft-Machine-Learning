@@ -14,7 +14,9 @@ Our goal for this project was to find a dataset and create a model using machine
 Code :<br>
 - Project_4.ipynb : Contains the code for cleaning and transforming our data, also our first five models. <br>
 - 2024Draft_Project.ipynb : Contains the code for model six, and testing on a new dataset with 2023-2024 stats.<br>
+
 Images : This folder contains images of our graphs relating to how well each model performed.<br>
+
 Resources :<br>
 - CollegeBasketballPlayers2009-2021.csv : This is the data that we used to build all of our models off of.<br>
 - fixed_new_draft_2024.csv : This is the data that we used to predict who would get drafted in model six.<br>
