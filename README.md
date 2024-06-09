@@ -28,6 +28,6 @@ Undrafted{precision: 0.99, recall: 0.96, f1-score: 0.97}, Drafted{precision: 0.2
 ![Image](Images/Model_5_Graph.png)
 
 # References
-Used this website to find code to turn a classification report into a graph : https://medium.com/@Doug-Creates/plotting-scikit-learn-classification-report-for-analysis-0229447fe232
-Google Slides : https://docs.google.com/presentation/d/1Ocn16RjP4gzTbt-MyaRb2DGWBDxWDFoIf-ICcamz_GI/edit#slide=id.p
+Used this website to find code to turn a classification report into a graph : https://medium.com/@Doug-Creates/plotting-scikit-learn-classification-report-for-analysis-0229447fe232 <br>
+Google Slides : https://docs.google.com/presentation/d/1Ocn16RjP4gzTbt-MyaRb2DGWBDxWDFoIf-ICcamz_GI/edit#slide=id.p <br>
 Dataset : https://www.kaggle.com/datasets/adityak2003/college-basketball-players-20092021/data?select=CollegeBasketballPlayers2009-2021.csv
