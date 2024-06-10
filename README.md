@@ -12,14 +12,18 @@ Our goal for this project was to find a dataset and create a model using machine
 
 ## Overview of files
 Code :<br>
-- Project_4.ipynb : Contains the code for cleaning and transforming our data, also our first five models. <br>
-- 2024Draft_Project.ipynb : Contains the code for model six, and testing on a new dataset with 2023-2024 stats.<br>
-
+- Project_4.ipynb : Contains the code for cleaning and transforming our data, also our first six models. <br>
+- 2024Draft_Project.ipynb : Contains the code with model six, and testing on a new datasets with 2023-2024 stats.<br>
+- Web_Scrape.ipynb : Contains the code for the web scraping used on ESPN.com.<br>
 Images : This folder contains images of our graphs relating to how well each model performed.<br>
 
 Resources :<br>
 - CollegeBasketballPlayers2009-2021.csv : This is the data that we used to build all of our models off of.<br>
 - fixed_new_draft_2024.csv : This is the data that we used to predict who would get drafted in model six.<br>
+- top750.csv : Player Data from ESPN college players.<br>
+- Cleaned_df.csv : Cleaned Data used after cleaning CollegeBasketballPlayers2009-2021.csv.<br>
+- cleaned_og.csv : Cleaning Data from Cleaned_df used for second draft attempt.<br>
+- modified_data.csv : Player Data used from reddit excel file.<br>
 
 ## Model 1
 The first model was a neural network with the features(conf, GP, mp, pts, Ortg, usg, TS_per, FTM, FTA, twoPA, twoPM, TPM, TPA, drtg, bpm, oreb, dreb, ast, stl, blk, drafted). This model had two hidden layers, one with the activation function tanh, and the other with relu. The output layer had the activation function of sigmoid. The hidden layers had 12 and 6 neurons respectivly. This was the classification report for this model, Undrafted{precision : 0.98, recall : 0.96, f1-score : 0.97}, Drafted{precision : 0.17, recall : 0.34, f1-score : 0.23} and accuracy of 0.94. In conclusion while we reached the accuracy threshold of 0.80 we were not happy with how we performed in the Drafted class. This model was a good start for us to build off of.  
