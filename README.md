@@ -44,6 +44,7 @@ Undrafted{precision: 0.99, recall: 0.96, f1-score: 0.97}, Drafted{precision: 0.2
 
 ## Model 6
 The sxith model was a neural network with the features(conf, MIN_per, pts, eFG, TS_per, FTA, twoPA, TPA, TPM, oreb, dreb, AST_per, TO_per, stl, blk, drafted). This model has three hidden layers, all relu, with 50, 40 and 20 neurons, respectively. Activation function of sigmoid on the outer layer. The following was the classification report: For the drafted category, the precision is 0.35, recall is 0.43, and F1-score is 0.39. For the undrafted category, the precision is 0.99, recall is 0.98, and F1-score is 0.98. The total accuracy of the model is 97% based on a total of 15,177 predictions. Using SMOTE (Synthetic Minority Over-sampling Technique) helped improve our model's performance by addressing the imbalance in the dataset, particularly enhancing the prediction accuracy, precision, recall, and F1-scores for the drafted category. By generating synthetic samples for the minority class (drafted), SMOTE enabled the model to better capture the patterns and characteristics of drafted players, leading to more accurate predictions and a more balanced evaluation of model performance across both drafted and undrafted categories.
+![smote_model_6](https://github.com/DevonNoer/Project-4-NBA-Draft-Machine-Learning/assets/153139416/b7581fd7-97f5-4e07-8307-9ead9ca78823)
 
 # References
 Used this website to find code to turn a classification report into a graph : https://medium.com/@Doug-Creates/plotting-scikit-learn-classification-report-for-analysis-0229447fe232 <br>
